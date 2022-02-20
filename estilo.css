@@ -1,0 +1,167 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrap{
+    width: 100%;
+    max-width: 1000px;
+    margin: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.widget{
+    width: 40%;
+    margin: 2em;
+
+}
+ 
+.widget p{
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    /* background: #189e8342 ; */
+    padding: 20px;
+    width: 100%;
+}
+
+.reloj{
+    font-family: 'Righteous', cursive;
+    width: 100%;
+    padding: 20px;
+    font-size: 3em;
+    text-align: center;
+    /* background: #189e8342; */
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    color: white;
+    text-align: center;
+    background-color: #117864;
+    line-height: 1;
+    padding: 30px;
+}
+
+nav ul { 
+    background-color: rgb(129, 184, 181);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    width: 200px;
+}
+
+nav li:hover{
+    background-color: #117864;
+}
+
+body{
+    background: white;
+}
+
+#contenedor{
+    width: 95%;
+    margin: auto;
+    /* background: beige; */
+    
+}
+
+#contenido{
+    width: 70%;
+    height: 1000px;
+    float: left;
+    background: whitesmoke;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#contenido h2{
+    font-size: 30px;
+    text-align: center;
+    
+} 
+
+#contenido-canciones{
+    width: 100%;
+    height: 500px;
+    float: left;
+    background: whitesmoke;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#contenido-canciones h2{
+    font-size: 30px;
+    text-align: center;
+
+}
+.imag-cancion{
+    width: 700px;
+    height: 300px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.EN-L{
+    text-align: center;
+}
+
+aside{
+    width: 27%;
+    height: 1000px;
+    background: whitesmoke;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+.img{
+    padding: 10px; margin: 10px;
+    border: 2px solid black;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 250px;
+}
+
+aside h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
+}
+
+
+footer{
+    background: #117864;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h2{
+    font-size: 30px;
+}
+
